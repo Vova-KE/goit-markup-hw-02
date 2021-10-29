@@ -1,0 +1,29 @@
+:root{
+    --body-bcg-color: #ffffff;
+    --hover-fous-active: aqua;
+}
+
+.body {
+    background-color: var(--body-bcg-color);
+}
+
+.mail-tel :hover,
+.mail-tel :focus,
+.mail-tel :active{
+    color: var(--hover-fous-active);
+}
+
+.navigation :hover,
+.navigation :focus
+.navigation :active{
+    color: var(--hover-fous-active);
+}
+
+.buttons :hover,
+.buttons :focus{
+    color: var(--hover-fous-active);
+}
+
+.buttons {
+    cursor: pointer;
+}
