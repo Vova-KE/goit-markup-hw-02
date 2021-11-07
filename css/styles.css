@@ -7,6 +7,7 @@
   --third-text-color: #000000;
   --other-text-color: #ffffff;
   --other-bcg-color: #2196f3;
+  --main-letter-spacing: 0.03em;
 }
 
 .body {
@@ -56,7 +57,7 @@
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  letter-spacing: 1.2;
+  letter-spacing: var(--main-letter-spacing);
   text-align: left;
 }
 
@@ -68,7 +69,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 1.15;
+  letter-spacing: 0.02em;
   text-align: left;
   font-family: inherit;
   color: var(--main-text-color);
@@ -79,7 +80,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 1.15;
+  letter-spacing: 0.02em;
   text-align: left;
 }
 
@@ -127,7 +128,7 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 1.21;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   text-align: left;
 }
 
@@ -135,8 +136,12 @@
   color: var(--second-text-color);
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   text-align: left;
+}
+
+.property-title-up {
+  text-transform: uppercase;
 }
 
 .visually-hidden,
@@ -160,7 +165,7 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   text-align: center;
 }
 
@@ -170,7 +175,7 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   text-align: center;
   font-family: Roboto;
 }
@@ -180,7 +185,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   text-align: center;
 }
 
@@ -188,7 +193,7 @@
   color: var(--second-text-color);
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   text-align: center;
 }
 
@@ -206,7 +211,7 @@
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   text-align: left;
 }
 .second-bottom-logo {
@@ -218,7 +223,7 @@
   font-size: 14px;
   font-style: normal;
   line-height: 1.7;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   text-align: left;
 }
 
@@ -227,20 +232,23 @@
   font-size: 14px;
   font-style: normal;
   line-height: 1.7;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   text-align: left;
 }
+
+/*----------------портфолио----------------------*/
 
 .potrfolio-buttons {
   color: var(--main-text-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.63;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   text-align: center;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .potrfolio-buttons:hover,
@@ -263,6 +271,6 @@
   color: var(--second-text-color);
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--main-letter-spacing);
   text-align: left;
 }
