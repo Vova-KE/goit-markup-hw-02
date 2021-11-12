@@ -134,7 +134,7 @@ ul {
 }
 
 /*----------------главный раздел----------------------*/
-/*чтобы видно было секцию-герой*/
+
 .main-hero {
   width: 1600px;
   background-color: var(--section-color);
@@ -236,9 +236,6 @@ ul {
 /* .property {
   background-color: teal;
 } */
-/* width: 1200px;
-  margin-left: auto;
-  margin-right: auto; */
 
 /*----------------занимаемся----------------------*/
 
